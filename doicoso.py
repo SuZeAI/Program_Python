@@ -6,5 +6,5 @@ for i in range(t):
     while (n > 0):
         x = n % k
         s = f[x] + s
-        n = int(n / k)
+        n //=k
     print(s)
