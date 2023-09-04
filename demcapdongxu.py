@@ -13,4 +13,4 @@ for i in range(n) :
 for i in range(n) :
     s += b[i] * (b[i] - 1) / 2
     s += c[i] * (c[i] - 1) / 2
-# print(int(s))
+print(int(s))
